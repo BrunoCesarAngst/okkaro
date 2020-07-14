@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  background: #fafafa;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+body, input, button {
+  color: #222;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+.content {
+  display: flex;
+}
+
+.item {
+	
+}
+
+.logo {
+  width: 500px;
+  height: 200px;
+  margin-left: 180px;
+  margin-bottom: 100px;
+  background-color: blue;
+  background: url("/assets/img/okarro.jpg") no-repeat;
+  background-size: 50%;
+}
+
+.timing {
+  padding: 5px;
+  width: 600px;
+  height: 120px;
+  background-color: rgb(42, 39, 39);
+  display: flex;
+  justify-content: space-between;
+}
+
+.legend {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  height: 10px;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.info {
+  padding: 2px;
+  margin-bottom: 40px;
+  text-transform: initial;
+  justify-content: center;
+  font-size: 25px;
+  display: flex;
+}
+
+span {
+  text-transform: initial;
+  font-size: 30px;
+  font-weight: 800;
+  color: #021962;
+}
+
+.textTime {
+  text-transform: uppercase;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 700;
+  display: flex;
+  color: #021962;
+  margin: 5px;
+}
+
+.node {
+  padding-top: 17px;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  margin: 10px;
+}
+
+.car {
+  width: 600px;
+  padding: 50px;
+  background: url("/assets/img/car.jpg") no-repeat;
+  background-size: cover;
+}
